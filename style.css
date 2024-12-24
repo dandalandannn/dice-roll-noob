@@ -74,8 +74,8 @@ button:active{
     }
 
     #resultImages img {
-        width: 25%;
-        max-width: 60px;
+        width: 50%;
+        max-width: 70px;
     }
 
     #total {
