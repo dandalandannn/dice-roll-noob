@@ -12,12 +12,14 @@ h1{
     font-weight: bold;
     background-color: hsl(0, 0%, 100%);
     width: 90%;
+    max-width: 600px;
     padding: 20px;
     box-shadow: 10px 10px 20px hsla(0, 0%, 0%, 0.404);
     margin: auto;
 }
 #amountOfDice{
-    width: 30%;
+    width: 90%;
+    max-width: 200px;
     text-align: center;
     font-size: 1rem;
     padding: 10px 10px;
@@ -34,7 +36,7 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background-color: hsl(114, 83%, 30%);
+    background-color: hsl(114, 83%s, 30%);
 }
 
 button:active{
@@ -44,7 +46,8 @@ button:active{
     margin: 25px;
 }
 #resultImages img{
-    width: 16%;
+    width: 20%;
+    max-width: 80px;
     border: solid 2px black;
     border-radius: 5px;
 }
@@ -54,4 +57,24 @@ button:active{
     background-color: hsla(0, 0%, 0%, 0.30);
     margin: 25px;
     color: white;
+}
+@media (max-width: 600px) {
+    #container {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    button {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+
+    #resultImages img {
+        width: 25%;
+        max-width: 60px;
+    }
+
+    #total {
+        font-size: 0.9rem;
+    }
 }
