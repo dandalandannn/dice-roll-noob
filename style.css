@@ -64,6 +64,10 @@ button:active{
         font-size: 0.9rem;
     }
 
+    #amountOfDice{
+        margin-bottom: 10px;
+    }
+
     button {
         padding: 8px 12px;
         font-size: 0.9rem;
